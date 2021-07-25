@@ -1,0 +1,10 @@
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\bin\Debug\Ogrenci-Takip-Projesi.exe.config
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\bin\Debug\Ogrenci-Takip-Projesi.exe
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\bin\Debug\Ogrenci-Takip-Projesi.pdb
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci-Takip-Projesi.csproj.AssemblyReference.cache
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci_Takip_Projesi.Form1.resources
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci_Takip_Projesi.Properties.Resources.resources
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci-Takip-Projesi.csproj.GenerateResource.cache
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci-Takip-Projesi.csproj.CoreCompileInputs.cache
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci-Takip-Projesi.exe
+C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\obj\Debug\Ogrenci-Takip-Projesi.pdb
