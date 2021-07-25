@@ -18,13 +18,14 @@ namespace Ogrenci_Takip_Projesi
         }
         OleDbConnection con;
         OleDbCommand cmd;
-        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Buğra\source\repos\Ogrenci-Takip-Projesi\Ogrenci-Takip-Projesi\ogrenciler.accdb;";
+        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Application.StartupPath + "/ogrenciler.accdb;";
         int ogrenciId = 0;
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
             ogrenciLoad();
+           
         }
         void ogrenciLoad()
         {
@@ -58,10 +59,10 @@ namespace Ogrenci_Takip_Projesi
                 string cinsiyet = "";
                 if(radioBtnErkek.Checked)
                 {
-                    cinsiyet = "Erkek";
+                    cinsiyet = radioBtnErkek.Text;
                 } else if(radioBtnKiz.Checked)
                 {
-                    cinsiyet = "Kız";
+                    cinsiyet = radioBtnKiz.Text;
                 }
                 cmd.Parameters.AddWithValue("@cinsiyeti", cinsiyet );
                 cmd.Parameters.AddWithValue("@sinifi", cBSinif.Text);
@@ -94,11 +95,11 @@ namespace Ogrenci_Takip_Projesi
                 string cinsiyet = "";
                 if (radioBtnErkek.Checked)
                 {
-                    cinsiyet = "Erkek";
+                    cinsiyet = radioBtnErkek.Text;
                 }
                 else if (radioBtnKiz.Checked)
                 {
-                    cinsiyet = "Kız";
+                    cinsiyet = radioBtnKiz.Text;
                 }
                 cmd.Parameters.AddWithValue("@cinsiyeti", cinsiyet);
                 cmd.Parameters.AddWithValue("@sinifi", cBSinif.Text);
@@ -167,7 +168,11 @@ namespace Ogrenci_Takip_Projesi
         }
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            ekle();
+
+           
+                ekle();
+            temizle();
+          
         }
 
         private void dg_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -241,6 +246,7 @@ namespace Ogrenci_Takip_Projesi
                 {
 
                     sil();
+                    temizle();
                 }
                 else
                 {
